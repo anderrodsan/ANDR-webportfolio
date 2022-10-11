@@ -16,14 +16,14 @@ function Art(){
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-      <img className='image' src="./images/Parrots.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/red-car.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/nemo.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/giant.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/enric.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/lemons.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/tentacle.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="./images/swan.png" onDragStart={handleDragStart} role="presentation" />,        
+      <img className='image' src="https://imgur.com/ZXK7q3y" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/rg3e3A0" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/T2FSMsd" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/zn39ev1" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/b5p4XDa" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/nRDtdUO" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/KHLJ7cE" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="https://imgur.com/T82p1gg" onDragStart={handleDragStart} role="presentation" />,        
   ];
 
   //Responsiveness 
