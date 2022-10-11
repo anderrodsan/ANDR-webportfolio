@@ -16,14 +16,14 @@ function Art(){
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-      <img className='image' src="https://raw.githubusercontent.com/anderrodsan/portfolio/master/public/img/Parrots.png" alt='parrots' onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="../img/red-car.png" alt='red car' onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="../img/nemo.png" alt='clownfish' onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="/img/giant.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="/img/enric.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="/img/lemons.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="/img/tentacle.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="/img/swan.png" onDragStart={handleDragStart} role="presentation" />,        
+      <img className='image' src="./images/Parrots.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/red-car.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/nemo.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/giant.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/enric.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/lemons.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/tentacle.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="./images/swan.png" onDragStart={handleDragStart} role="presentation" />,        
   ];
 
   //Responsiveness 
