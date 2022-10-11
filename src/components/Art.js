@@ -16,8 +16,8 @@ function Art(){
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-      <img className='image' src="../img/Parrots.png" onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="../img/red-car.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="../img/Parrots.png" alt='parrots' onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="../img/red-car.png" alt='red car' onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="../img/nemo.png" onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="/img/giant.png" onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="/img/enric.png" onDragStart={handleDragStart} role="presentation" />,
