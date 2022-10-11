@@ -7,7 +7,6 @@ import { ImLinkedin } from 'react-icons/im';
 //typing animation
 import { TypeAnimation } from 'react-type-animation';
 
-
 export default class Hero extends Component {
   render() {
     return (
