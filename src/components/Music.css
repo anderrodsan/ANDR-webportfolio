@@ -1,0 +1,76 @@
+
+.music{
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+
+.music-content{
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+.video{
+    width: 50vh;
+    height: auto;
+}
+.video:hover{
+    scale: 1.03;
+    transition: all .2s ease-in-out;
+}
+
+.app,.app-list:hover{
+    scale: 1.03;
+    transition: all .2s ease-in-out;
+}
+
+.media-apps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0vh;
+    list-style: none;
+    text-align: left;
+}
+
+.app-list{
+    padding: 0 3vh;
+}
+
+.app-icon{
+    color:aliceblue;
+    padding-right: 1vh;
+}
+
+h4{
+    padding-bottom: 3px;
+    border-bottom: 0.5px solid var(--dark);
+}
+
+@media only screen and (width <= 1150px) {
+    .music{
+        min-height: calc(100vh - 60px);
+        height: auto;
+    }
+
+    .music-content{
+        position: relative;
+        transform: translate(0, 0);
+        top: 0%;
+        left: 0%;
+        text-align: center;
+        padding: 15% 10%;
+    }
+
+    .video{
+        scale: 0.8;
+    }
+    
+}
+
+
+
