@@ -18,7 +18,7 @@ function Art(){
   const items = [
       <img className='image' src="../img/Parrots.png" alt='parrots' onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="../img/red-car.png" alt='red car' onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src="../img/nemo.png" onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' src="../img/nemo.png" alt='clownfish' onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="/img/giant.png" onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="/img/enric.png" onDragStart={handleDragStart} role="presentation" />,
       <img className='image' src="/img/lemons.png" onDragStart={handleDragStart} role="presentation" />,
