@@ -16,7 +16,7 @@ export default class Music extends Component {
                 <h3>I’ve played the guitar since I was a kid and started to freestyle rap some years ago. <br></br>I recently uploaded my first rap song in spanish called “Tiempo (time)”, entirely produced by me.</h3>
                 <div className='media-apps'>
                     <ReactPlayer className='video' url='https://youtu.be/9frRo4Q8Gjo' 
-                    controls={true} light={false}
+                    controls={true} 
                     />
                     <ul className='app-list'>
                         <li>

@@ -11,10 +11,6 @@ import { AiOutlineClose, AiOutlineDownload } from "react-icons/ai";
 import { MdDownload } from "react-icons/md";
 
 
-
-
-
-
 function NavBar() {
 
     const [sidebar, setSidebar] = useState(false)
@@ -44,7 +40,7 @@ function NavBar() {
             <li className='nav-item'>
               <Link to="music" spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
             </li>
-            <a className='button-link' href={CV} download><button className='nav-button'>Resume <MdDownload size={20} className='icon' /></button></a>
+            <a className='button-link' href={CV} download><button className='nav-button'>Resume <AiOutlineDownload size={16} className='icon' /></button></a>
           </ul>
           
         </div>
@@ -73,7 +69,7 @@ function NavBar() {
             <li className='burger-item'>
               <Link to="music" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
             </li>
-            <a className='burger-item' href={CV} download><button className='burger-button'>Download CV</button></a>
+            <a className='burger-item' href={CV} download><button className='burger-button'>Resume <AiOutlineDownload size={16} className='icon' /></button></a>
           </ul>
         </div>
 

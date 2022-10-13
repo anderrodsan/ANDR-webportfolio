@@ -17,7 +17,7 @@
 .video{
     width: 30vh;
     height: auto;
-    margin-top: 10px;
+    margin: 20px;
 }
 .video:hover{
     scale: 1.03;
@@ -39,7 +39,7 @@
 }
 
 .app-list{
-    padding: 30px 3vh;
+    padding: 0 20px;
 }
 
 .app-icon{

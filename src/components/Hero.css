@@ -42,6 +42,19 @@
   .scroll-down:hover{
     scale: 1.05;
     transition: 200ms ease-in;
+    animation: jumpInfinite-hover 3s infinite;
+  }
+
+  @keyframes jumpInfinite-hover {
+    0% {
+      margin-bottom: 30px;
+    }
+    50% {
+      margin-bottom: 0px;
+    }
+    100% {
+      margin-bottom: 30px;
+    }
   }
   
   @keyframes jumpInfinite {
