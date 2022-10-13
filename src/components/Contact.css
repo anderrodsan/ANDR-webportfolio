@@ -13,6 +13,7 @@
     top: 50%;
     left: 50%;
     align-items: center;
+    width: 100%;
 }
 
 .social{
@@ -32,6 +33,7 @@
 .social a:hover{
     scale: 1.05;
     transition: 200ms ease-in;
+    text-shadow: 0 0 .65px aliceblue, 0 0 .65px aliceblue;
 }
 
 .scroll-up{
@@ -42,5 +44,12 @@
     transform: rotateX(180º);
     animation: jumpInfinite 3s infinite;
     cursor: pointer;
+}
+
+@media only screen and (width <= 1000px){
+    .scroll-up{
+        bottom: 50px;
+    }
+
 }
 

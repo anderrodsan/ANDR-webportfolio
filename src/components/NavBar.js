@@ -72,6 +72,9 @@ function NavBar() {
             <li className='burger-item'>
               <Link to="music" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
             </li>
+            <li className='burger-item'>
+              <Link to="contact" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>  
+            </li>
             <a className='burger-item' href={CV} download><button className='burger-button'>Resume <AiOutlineDownload size={16} className='icon' /></button></a>
           </ul>
         </div>
