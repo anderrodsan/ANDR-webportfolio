@@ -40,6 +40,9 @@ function NavBar() {
             <li className='nav-item'>
               <Link to="music" spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
             </li>
+            <li className='nav-item'>
+              <Link to="contact" spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>  
+            </li>
             <a className='button-link' href={CV} download><button className='nav-button'>Resume <AiOutlineDownload size={16} className='icon' /></button></a>
           </ul>
           

@@ -6,6 +6,7 @@ import Art from "./components/Art";
 import Music from "./components/Music";
 import Skills from "./components/Skills";
 import Background from "./components/Background";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Background />
       <Art />  
       <Music />
+      <Contact />
     </div>
   );
 }

@@ -6,9 +6,9 @@ import { Link } from 'react-scroll'
 
 //react icons
 import { ImLinkedin } from 'react-icons/im';
+import { FaGithubSquare} from 'react-icons/fa';
 import { CgChevronDoubleDown } from 'react-icons/cg';
-
-
+import { MdEmail } from 'react-icons/md';
 
 //typing animation
 import { TypeAnimation } from 'react-type-animation';
@@ -67,6 +67,8 @@ export default class Hero extends Component {
 }
 
 /*
+
+            
 
 <div className='social-media'>
                 <a href=''><ImLinkedin /></a>

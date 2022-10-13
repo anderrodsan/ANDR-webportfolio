@@ -9,11 +9,12 @@
 
 .hero-content{
     position: relative;
+    display: flex;
+    flex-direction: column;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     text-align: center;
-
 }
 
 .title{
@@ -68,6 +69,12 @@
       margin-bottom: 30px;
     }
   }
+
+.social .icon{
+    padding: 20px;
+
+}
+
   
 
 
@@ -80,6 +87,7 @@
     .subtitle{
         width: auto;
         padding: 0 10%;
+        padding-top: 20px;
     }
 
     .hero{
@@ -87,7 +95,7 @@
     }
 
     .scroll-down{
-        bottom: 30px;
+        bottom: 50px;
     }
 
 }
