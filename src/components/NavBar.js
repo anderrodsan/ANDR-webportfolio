@@ -1,12 +1,16 @@
 import React, { Component, useState } from 'react'
 import './Navbar.css';
+import CV from '../files/CV_Ander_Rodriguez_EN.pdf'
 
 //react smooth scroll
 import { Link } from 'react-scroll'
 
 //burger icons
 import { FaBars } from 'react-icons/fa';
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineDownload } from "react-icons/ai";
+import { MdDownload } from "react-icons/md";
+
+
 
 
 
@@ -23,20 +27,28 @@ function NavBar() {
         <div className='logo'>
           <Link to="hero" spy={true} smooth={true} offset={-60} duration={500}>&R</Link>
         </div>
-        <ul className='nav-menu'>
-          <li className='nav-item'>
-            <Link to="hero" spy={true} smooth={true} offset={-60} duration={500}>About Me</Link>
-          </li>
-          <li className='nav-item'>
-            <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
-          </li>
-          <li className='nav-item'>
-            <Link to="art" spy={true} smooth={true} offset={-60} duration={500}>Art</Link>
-          </li>
-          <li className='nav-item'>
-            <Link to="music" spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
-          </li>
-        </ul>
+        <div className='nav-menu'>
+          <ul>
+            <li className='nav-item'>
+              <Link to="hero" spy={true} smooth={true} offset={-60} duration={500}>About Me</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to="background" spy={true} smooth={true} offset={-60} duration={500}>Background</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to="art" spy={true} smooth={true} offset={-60} duration={500}>Art</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to="music" spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
+            </li>
+            <a className='button-link' href={CV} download><button className='nav-button'>Resume <MdDownload size={20} className='icon' /></button></a>
+          </ul>
+          
+        </div>
+        
         
         {/*-------------- Sidebar --------------- */}
 
@@ -53,11 +65,15 @@ function NavBar() {
               <Link to="skills" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
             </li>
             <li className='burger-item'>
+              <Link to="background" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Background</Link>
+            </li>
+            <li className='burger-item'>
               <Link to="art" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Art</Link>
             </li>
             <li className='burger-item'>
               <Link to="music" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Music</Link>  
             </li>
+            <a className='burger-item' href={CV} download><button className='burger-button'>Download CV</button></a>
           </ul>
         </div>
 

@@ -1,0 +1,181 @@
+
+.background{
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+
+.background-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+.title{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.timeline{
+    margin: 0 0;
+}
+
+.timeline-content{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.text-box:hover{
+    scale: 1.05;
+    transition: 300ms ease-in;
+}
+
+.text-box{
+    position: relative;
+    padding: 10px 20px;
+    margin: 0 40px;
+    min-height: 110px;
+    background-color: #192734;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.right{
+    left: 50%;
+}
+
+.left{
+    left: 0%;
+}
+
+.timeline-content .tl-icon{
+    position: absolute;
+    right: -20px;
+    background-color: white;
+    padding: 5px 0;
+    top: 30px;
+}
+
+.right .tl-icon{
+    left: -20px;
+    top: 30px;
+}
+
+h3, h4{
+    margin: 10px 0;
+}
+
+.timeline-content .date{
+    position: absolute;
+    right: -130px;
+    padding: 5px 0;
+    top: 40px;
+}
+
+.right .date{
+    position: absolute;
+    left: -130px;
+    top: 40px;
+}
+
+
+/* Draw the line in the middle  */
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #192734;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+
+.text-box button{
+    color:aliceblue;
+    background-color: #192734;
+    border-color: aliceblue;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.text-box button:hover{
+    color: #192734;
+    background-color: aliceblue;
+    transition: 300ms ease-in;
+}
+
+.date-top{
+    display: none;
+}
+
+@media only screen and (width <= 1000px){
+
+    .background{
+        min-height: calc(100vh - 60px);
+        height: auto;
+    }
+
+    .background-content{
+        position: relative;
+        transform: translate(0, 0);
+        top: 0%;
+        left: 0%;
+        text-align: center;
+        padding: 30px 10%;
+    }
+
+    .title{
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+
+    .timeline{
+        margin: 50px 0;
+    }
+
+    .timeline::after{
+        position: absolute;
+        left: calc(10% + 20px);
+        margin-top: 110px;
+    }
+
+    .timeline-content{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .right{
+        left: 0%;
+    }
+
+    .left .tl-icon, .right .tl-icon{
+        left: 0px;
+    }
+
+    .date{
+        display: none;
+    }
+
+    .date-top{
+        display: block;
+        text-align: left;
+        padding-left: 80px;
+        margin-bottom: 0px;
+    }
+
+}
+
+
+

@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Art from "./components/Art";
 import Music from "./components/Music";
 import Skills from "./components/Skills";
+import Background from "./components/Background";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <Background />
       <Art />  
       <Music />
     </div>

@@ -53,6 +53,40 @@ ul{
   padding: 0;
 }
 
+.icon{
+  vertical-align: middle;
+}
+
+button{
+  background-color: white;
+  border-color: #192734;
+  border-width: 3px;
+  border-radius: 15px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color:#192734;
+  cursor: pointer;
+}
+
+li, a{
+  text-decoration: none;
+}
+
+
+button:hover{
+  background-color: #192734;
+  color: white;
+  text-shadow: 0 0 .65px white, 0 0 .65px white;
+  transition: 200ms ease-in-out;
+}
+
+.app-list .icon{
+  padding-right: 10px;
+}
+
+
+
+
 @media (width <= 900px) {
   h1{
     font-size: 3rem;

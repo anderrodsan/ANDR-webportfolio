@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 import './Hero.css';
 
+//react smooth scroll
+import { Link } from 'react-scroll'
+
 //react icons
 import { ImLinkedin } from 'react-icons/im';
+import { CgChevronDoubleDown } from 'react-icons/cg';
+
+
 
 //typing animation
 import { TypeAnimation } from 'react-type-animation';
@@ -50,6 +56,9 @@ export default class Hero extends Component {
                 />
             </h1>
             <h3 className='subtitle'>I am an electronic engineer, now studying a MSc in "Innovative Communication Technologies and Entrepreneurship" in Copenhagen. I'm looking forward to taking my career to the next level by extending my technical knowledge. New challenges are always accepted.</h3>
+        </div>
+        <div className='scroll-down'>
+            <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}><CgChevronDoubleDown size={60} /></Link>
         </div>
         
       </div>

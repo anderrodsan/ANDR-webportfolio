@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-
 import './Skills.css'
+
+//react smooth scroll
+import { Link } from 'react-scroll'
 
 //React icons
 import { SiAdobe, SiHtml5, SiCss3, SiJavascript, SiReact, SiFigma, SiPython } from "react-icons/si";
@@ -8,6 +10,7 @@ import { FaCode } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { MdLanguage } from "react-icons/md";
+import { CgChevronDoubleDown } from 'react-icons/cg';
 
 
 
@@ -20,55 +23,54 @@ export default class Skills extends Component {
             <div className='skill-types'>
                 <div className='skill-list'>
                     <ul>
-                        <li><h4>WEB DEVELOPMENT</h4></li>
-                        <li><SiHtml5 className='skill-icon'/> HTML</li>
-                        <li><SiCss3 className='skill-icon'/> CSS</li>
-                        <li><TbBrandJavascript className='skill-icon'/>JavaScript</li>
-                        <li><SiReact className='skill-icon'/> React</li>
+                        <li className='skill-item'><h4 className='skill-title'>WEB DEVELOPMENT</h4></li>
+                        <li className='skill-item'><SiHtml5 className='icon' size={20}/> HTML</li>
+                        <li className='skill-item'><SiCss3 className='icon' size={20}/> CSS</li>
+                        <li className='skill-item'><TbBrandJavascript className='icon' size={20}/> JavaScript</li>
+                        <li className='skill-item'><SiReact className='icon' size={20}/> React</li>
                     </ul>
                     <ul>
-                        <li><h4>UX DESIGN</h4></li>
-                        <li><SiAdobe className='skill-icon'/> Adobe Package</li>
-                        <li><SiFigma className='skill-icon'/> Figma</li>
+                        <li className='skill-item'><h4 className='skill-title'>UX DESIGN</h4></li>
+                        <li className='skill-item'><SiAdobe className='icon' size={20}/> Adobe Package</li>
+                        <li className='skill-item'><SiFigma className='icon' size={20}/> Figma</li>
                     </ul>
                     <ul>
-                        <li><h4>BACK-END</h4></li>
-                        <li><SiPython className='skill-icon'/> Python</li>
-                        <li><FaCode className='skill-icon'/> Matlab</li>
-                        <li><FaCode className='skill-icon'/> C++</li>
-                    </ul>
-                </div>
-
-                <div className='skill-list'>
-                    <ul>
-                        <li><h4>PERSONAL</h4></li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Creativity</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Teamwork</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Engineering</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Problem Solving</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Critical Thinking</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Project Management</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Social skills</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Willingness to learn</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Fast learning</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Flexibility</li>
-                        <li><BsFillPersonCheckFill className='skill-icon'/> Adaptability</li>
+                        <li className='skill-item'><h4 className='skill-title'>BACK-END</h4></li>
+                        <li className='skill-item'><SiPython className='icon' size={20}/> Python</li>
+                        <li className='skill-item'><FaCode className='icon' size={20}/> Matlab</li>
+                        <li className='skill-item'><FaCode className='icon' size={20}/> C++</li>
                     </ul>
                 </div>
 
                 <div className='skill-list'>
                     <ul>
-                        <li><h4>LANGUAGES</h4></li>
-                        <li><MdLanguage className='skill-icon'/> <b>SPANISH</b> | Native</li>
-                        <li><MdLanguage className='skill-icon'/> <b>BASQUE</b> | Native</li>
-                        <li><MdLanguage className='skill-icon'/> <b>ENGLISH</b> | C1 Certificate</li>
-                        <li><MdLanguage className='skill-icon'/> <b>FRENCH</b> | B2 Certificate</li>
-                        <li><MdLanguage className='skill-icon'/> <b>DANISH</b> | Module 1</li>
+                        <li className='skill-item'><h4 className='skill-title'>PERSONAL</h4></li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Creativity</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Teamwork</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Engineering</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Problem Solving</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Critical Thinking</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Project Management</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Social skills</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Willingness to learn</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Fast learning</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Flexibility</li>
+                        <li className='skill-item'><BsFillPersonCheckFill className='icon' size={20}/> Adaptability</li>
+                    </ul>
+                </div>
+
+                <div className='skill-list'>
+                    <ul>
+                        <li className='skill-item'><h4 className='skill-title'>LANGUAGES</h4></li>
+                        <li className='skill-item'><MdLanguage className='icon' size={20}/> <b>SPANISH</b> | Native</li>
+                        <li className='skill-item'><MdLanguage className='icon' size={20}/> <b>BASQUE</b> | Native</li>
+                        <li className='skill-item'><MdLanguage className='icon' size={20}/> <b>ENGLISH</b> | C1 Certificate</li>
+                        <li className='skill-item'><MdLanguage className='icon' size={20}/> <b>FRENCH</b> | B2 Certificate</li>
+                        <li className='skill-item'><MdLanguage className='icon' size={20}/> <b>DANISH</b> | Module 1</li>
                     </ul>
                 </div>
             </div>
         </div>
-
       </div>
     )
   }

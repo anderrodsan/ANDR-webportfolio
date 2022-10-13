@@ -35,7 +35,7 @@ function Art(){
   }
   
   return (
-    <div className='art light-theme' id='art'>
+    <div className='art dark-theme' id='art'>
       <div className='art-content'>
           <h2 className='white-text'>My Art.</h2>
           <h3 className='white-text description'>This is a showcase of the best paintings I created during this year (2022) using watercolor and black markers.</h3>

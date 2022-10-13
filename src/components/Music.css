@@ -15,8 +15,9 @@
 }
 
 .video{
-    width: 50vh;
+    width: 30vh;
     height: auto;
+    margin-top: 10px;
 }
 .video:hover{
     scale: 1.03;
@@ -38,17 +39,24 @@
 }
 
 .app-list{
-    padding: 0 3vh;
+    padding: 30px 3vh;
 }
 
 .app-icon{
-    color:aliceblue;
     padding-right: 1vh;
 }
 
-h4{
+.app-title{
     padding-bottom: 3px;
     border-bottom: 0.5px solid var(--dark);
+}
+
+.music-content h2{
+    margin-bottom: 10px;
+}
+
+.music-content .media-apps{
+    margin-top: 10px;
 }
 
 @media only screen and (width <= 1150px) {
@@ -71,6 +79,7 @@ h4{
     }
     
 }
+
 
 
 

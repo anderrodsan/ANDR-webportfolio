@@ -1,5 +1,6 @@
 
 .skills{
+    position: relative;
     height: calc(100vh - 60px); 
     width: 100%;
 }
@@ -30,7 +31,7 @@
     transition: all .2s ease-in-out;
 }
 
-h4{
+.skill-title{
     padding-bottom: 3px;
     border-bottom: 0.5px solid aliceblue;
     text-align: left;
@@ -40,10 +41,15 @@ li{
     list-style: none;
 }
 
-.skill-icon{
-    color:aliceblue;
-    padding-right: 1vh;
+.skill-item{
+    padding-bottom: 5px;
 }
+
+.skill-item .icon{
+    padding-right: 10px;
+}
+
+
 
 @media only screen and (width <= 900px) {
     .skills{
@@ -57,7 +63,7 @@ li{
         top: 0%;
         left: 0%;
         text-align: center;
-        padding: 20% 10%;
+        padding: 30px 10%;
     }
 
     .skill.list{
