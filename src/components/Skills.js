@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Skills.css'
 
 //react smooth scroll
@@ -14,8 +14,8 @@ import { CgChevronDoubleDown } from 'react-icons/cg';
 
 
 
-export default class Skills extends Component {
-  render() {
+export default function Skills() {
+
     return (
       <div className='skills dark-theme' id='skills'>
         <div className='skill-content'>
@@ -73,5 +73,4 @@ export default class Skills extends Component {
         </div>
       </div>
     )
-  }
 }

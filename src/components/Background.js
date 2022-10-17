@@ -10,7 +10,7 @@ export default function Background() {
   return (
     <div className='background light-theme' id='background'>
         <div className='background-content'>
-            <h2 className='title'>My Education & Experience.</h2>
+            <h2 className='title-bck'>My Education & Experience.</h2>
             <div className='timeline'>
                 <div className='date-top'><b>2017 - 2021</b></div>
                 <div className='timeline-content left'>
