@@ -18,7 +18,7 @@
 
 .title-bck{
     background-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .timeline{
@@ -96,7 +96,7 @@ h3, h4{
     top: 0;
     left: 50%;
     z-index: -1;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .text-box button{
