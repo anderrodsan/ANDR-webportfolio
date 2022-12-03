@@ -58,6 +58,11 @@
 
 .line{
     margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.no-line{
+    display: none;
 }
 
 .projects{

@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Skills.css'
-
-//react smooth scroll
-import { Link } from 'react-scroll'
 
 //React icons
 import { SiAdobe, SiHtml5, SiCss3, SiJavascript, SiReact, SiFigma, SiPython } from "react-icons/si";
@@ -10,7 +7,6 @@ import { FaCode } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { MdLanguage } from "react-icons/md";
-import { CgChevronDoubleDown } from 'react-icons/cg';
 
 
 

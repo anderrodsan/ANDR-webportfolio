@@ -1,14 +1,12 @@
-import React, {useState, useEffect } from 'react'
+import React from 'react'
 import './Hero.css';
 
 //react smooth scroll
 import { Link } from 'react-scroll'
 
 //react icons
-import { ImLinkedin } from 'react-icons/im';
-import { FaGithubSquare} from 'react-icons/fa';
 import { CgChevronDoubleDown } from 'react-icons/cg';
-import { MdEmail } from 'react-icons/md';
+
 
 //typing animation
 import { TypeAnimation } from 'react-type-animation';
@@ -88,7 +86,7 @@ export default function Hero() {
             <h3 className='subtitle'>I am an electronic engineer, now studying a MSc in "Innovative Communication Technologies and Entrepreneurship" in Copenhagen. Learning UX Design and Front-end development.</h3>
         </div>
         <div className='scroll-down'>
-            <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}><CgChevronDoubleDown size={60} /></Link>
+            <Link to="projects" spy={true} smooth={true} offset={-60} duration={500}><CgChevronDoubleDown size={60} /></Link>
         </div>
       </div>
     )

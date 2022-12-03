@@ -17,9 +17,9 @@ export default function Contact() {
         <div className='contact-content'>
             <h2>Contact Me</h2>
             <div className='social'>
-                <a href='https://www.linkedin.com/in/anderrodsan/?locale=en_US' target='_blank'><ImLinkedin className='icon' size={20}/> linkedin.com/in/anderrodsan</a>
+                <a href='https://www.linkedin.com/in/anderrodsan/?locale=en_US' target='_blank' rel="noreferrer"><ImLinkedin className='icon' size={20}/> linkedin.com/in/anderrodsan</a>
                 <a href='mailto:anderrodsan@gmail.com'><MdEmail className='icon' size={20}/> anderrodsan@gmail.com</a>
-                <a href='https://github.com/anderrodsan' target='_blank'><FaGithubSquare className='icon' size={20}/> github.com/anderrodsan</a>
+                <a href='https://github.com/anderrodsan' target='_blank' rel="noreferrer"><FaGithubSquare className='icon' size={20}/> github.com/anderrodsan</a>
             </div>
         </div>
         <div className='scroll-up'>

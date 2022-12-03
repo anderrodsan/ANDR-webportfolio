@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, {useState } from 'react'
 import './Navbar.css';
 import CV from '../files/CV_Ander_Rodriguez_EN.pdf'
 
@@ -8,7 +8,6 @@ import { Link } from 'react-scroll'
 //burger icons
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose, AiOutlineDownload } from "react-icons/ai";
-import { MdDownload } from "react-icons/md";
 
 
 function NavBar() {

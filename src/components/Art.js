@@ -3,12 +3,8 @@ import './Art.css';
 
 
 //carousel photos
-import Carousel from 'better-react-carousel'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-
-//typing animation
-import { TypeAnimation } from 'react-type-animation';
 
 function Art(){
 
@@ -16,14 +12,14 @@ function Art(){
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-      <img className='image' src={require('../images/Parrots.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/red-car.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/nemo.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/giant.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/enric.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/lemons.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/tentacle.png')} onDragStart={handleDragStart} role="presentation" />,
-      <img className='image' src={require('../images/swan.png')} onDragStart={handleDragStart} role="presentation" />,        
+      <img className='image' alt='parrots' src={require('../images/Parrots.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='red car' src={require('../images/red-car.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='fishes' src={require('../images/nemo.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='giants' src={require('../images/giant.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='jesus' src={require('../images/enric.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='lemons' src={require('../images/lemons.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='tentacle' src={require('../images/tentacle.png')} onDragStart={handleDragStart} role="presentation" />,
+      <img className='image' alt='swan' src={require('../images/swan.png')} onDragStart={handleDragStart} role="presentation" />,        
   ];
 
   //Responsiveness 

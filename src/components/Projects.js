@@ -1,9 +1,8 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import './Projects.css';
 
 
 //React icons
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiFigma, SiPython } from "react-icons/si";
 import { FaUniversity, FaUser } from "react-icons/fa";
 
 
@@ -29,12 +28,12 @@ function Projects(){
             <button className={ml ? 'btn-on' : 'btn'} onClick={showML}>Full-Stack</button>
             <button className={electronics ? 'btn-on' : 'btn'} onClick={showElectronics}>Electronics</button>
           </div>
-          <hr className='line'/>
+          <hr className={(ml || frontend || electronics) ? 'line' : 'no-line'}/>
           <div className='projects'>
             {/* Club recommender */}
             <div className={ml ? 'project-item' : 'hide'} >
               <div className='project-type'>Machine Learning</div>
-              <img className='project-img' src={require('../images/club-recommender2.jpeg')}/>
+              <img className='project-img' src={require('../images/club-recommender2.jpeg')} alt='club recommender logo'/>
               <div className='project-description'>
                 <h4 className='project-name'>Club <br/> Recommender</h4>
                 <h3 className='project-year'> SEP 2022 | DIC 2022</h3>
@@ -44,12 +43,12 @@ function Projects(){
                 </div>
                 <p className='project-exp'>Recommend clubs based on Spotify data</p>
               </div>
-              <a className='check-btn' href={''} target="_blank">Coming Soon...</a>
+              <a className='check-btn' href={''} target="_blank" rel="noreferrer">Coming Soon...</a>
             </div>
             {/* Web portfolio */}
             <div className={frontend ? 'project-item' : 'hide'}>
               <div className='project-type'>Front-end</div>
-              <img className='project-img' src={require('../images/portfolio.jpeg')}/>
+              <img className='project-img' src={require('../images/portfolio.jpeg')} alt='web portfolio logo'/>
               <div className='project-description'>
                 <h4 className='project-name'>Web <br/> Portfolio</h4>
                 <h3 className='project-year'>SEP 2022 | OCT 2022</h3>
@@ -59,12 +58,12 @@ function Projects(){
                 </div>
                 <p className='project-exp'>Web portfolio created by using Reactjs</p>
               </div>
-              <a className='check-btn' href={'https://github.com/anderrodsan/portfolio'} target="_blank">Github Code</a>
+              <a className='check-btn' href={'https://github.com/anderrodsan/portfolio'} target="_blank" rel="noreferrer">Github Code</a>
             </div>
             {/* Masters Recommender System */}
             <div className={(frontend || ml) ? 'project-item' : 'hide'}>
                 <div className='project-type'>Full-Stack</div>
-                <img className='project-img' src={require('../images/masters-recommender2.jpeg')}/>
+                <img className='project-img' src={require('../images/masters-recommender2.jpeg')} alt='masters recommender logo'/>
                 <div className='project-description'>
                   <h4 className='project-name'>Masters' Recommender</h4>
                   <h3 className='project-year'>FEB 2022 | JUN 2022</h3>
@@ -74,12 +73,12 @@ function Projects(){
                   </div>
                   <p className='project-exp'>Recommend masters' based on user preferences</p>
                 </div>
-                <a className='check-btn' href={'https://github.com/Jasmau/ICTE_project'} target="_blank">Github Code</a>
+                <a className='check-btn' href={'https://github.com/Jasmau/ICTE_project'} target="_blank" rel="noreferrer">Github Code</a>
             </div>
             {/* Electric Car */}
             <div className={electronics ? 'project-item' : 'hide'}>
                 <div className='project-type'>Electronics</div>
-                <img className='project-img' src={require('../images/emuf.jpeg')}/>
+                <img className='project-img' src={require('../images/emuf.jpeg')} alt='formula student logo'/>
                 <div className='project-description'>
                   <h4 className='project-name'>Formula Student <br/> Electric Car</h4>
                   <h3 className='project-year'>JAN 2019 | JAN 2021</h3>
@@ -89,7 +88,7 @@ function Projects(){
                   </div>
                   <p className='project-exp'>Design and development of electronics</p>
                 </div>
-                <a className='check-btn' href={'https://www.youtube.com/watch?v=XsrA5gPb8_A'} target="_blank">Youtube Video</a>
+                <a className='check-btn' href={'https://www.youtube.com/watch?v=XsrA5gPb8_A'} target="_blank" rel="noreferrer">Youtube Video</a>
             </div>
 
           </div>
