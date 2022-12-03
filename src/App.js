@@ -7,14 +7,16 @@ import Music from "./components/Music";
 import Skills from "./components/Skills";
 import Background from "./components/Background";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Skills />
+      <Projects/>
       <Background />
+      <Skills />
       <Art />  
       <Music />
       <Contact />

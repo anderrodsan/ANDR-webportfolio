@@ -22,26 +22,56 @@ export default function Hero() {
                 <TypeAnimation 
                     sequence={[
                         "Hey, I'm Ander.", // Types 'One'
+                        1000, // Waits 1s
+                        "Hey, I'm And", // Types 'One'
+                        500, // Waits 1s
+                        "Hey, I'm AndR", // Types 'One'
+                        1000, // Waits 1s
+                        "Hey, I'm &R.", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s
 
                         "Hola, soy Ander.", // Types 'One'
+                        1000, // Waits 1s
+                        "Hola, soy And", // Types 'One'
+                        500, // Waits 1s
+                        "Hola, soy AndR", // Types 'One'
+                        1000, // Waits 1s
+                        "Hola, soy &R.", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s
 
                         "Hej, jeg er Ander.", // Types 'One'
+                        1000, // Waits 1s
+                        "Hej, jeg er And", // Types 'One'
+                        500, // Waits 1s
+                        "Hej, jeg er AndR", // Types 'One'
+                        1000, // Waits 1s
+                        "Hej, jeg er &R.", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s
 
                         "Kaixo, Ander naiz.", // Types 'One'
+                        1000, // Waits 1s
+                        "Kaixo, And", // Types 'One'
+                        500, // Waits 1s
+                        "Kaixo, AndR", // Types 'One'
+                        1000, // Waits 1s
+                        "Kaixo, &R naiz.", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s
 
                         "Salut, je suis Ander.", // Types 'One'
+                        1000, // Waits 1s
+                        "Salut, je suis And", // Types 'One'
+                        500, // Waits 1s
+                        "Salut, je suis AndR", // Types 'One'
+                        1000, // Waits 1s
+                        "Salut, je suis &R", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s

@@ -29,10 +29,13 @@ function NavBar() {
               <Link to="hero" spy={true} smooth={true} offset={-60} duration={500}>About Me</Link>
             </li>
             <li className='nav-item'>
-              <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
+              <Link to="projects" spy={true} smooth={true} offset={-60} duration={500}>Projects</Link>
             </li>
             <li className='nav-item'>
-              <Link to="background" spy={true} smooth={true} offset={-60} duration={500}>Background</Link>
+              <Link to="background" spy={true} smooth={true} offset={-58} duration={500}>Background</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to="skills" spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
             </li>
             <li className='nav-item'>
               <Link to="art" spy={true} smooth={true} offset={-60} duration={500}>Art</Link>
