@@ -69,7 +69,7 @@ export default function Hero() {
                         500, // Waits 1s
                         "Salut, je suis AndR", // Types 'One'
                         1000, // Waits 1s
-                        "Salut, je suis &R", // Types 'One'
+                        "Salut, je suis &R.", // Types 'One'
                         3000, // Waits 1s
                         "", //erase it
                         1000, // Wait 1s

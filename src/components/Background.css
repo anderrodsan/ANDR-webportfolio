@@ -121,7 +121,7 @@ h3, h4{
 @media only screen and (width <= 1000px){
 
     .background{
-        min-height: calc(100vh - 60px);
+            min-height: calc(100vh - 60px);
         height: auto;
     }
 
@@ -132,6 +132,10 @@ h3, h4{
         left: 0%;
         text-align: center;
         padding: 30px 10%;
+    }
+
+    .title-bck{
+        margin-top: 8vh;
     }
 
     .title{

@@ -35,11 +35,13 @@ nav{
     font-weight: bold;
 }
 
+
+
 .logo:hover{
   scale: 1.1;
   cursor: pointer;
   transition-delay: 100ms;
-  
+  animation-name: rotate;
 }
 
 .nav-item .active{

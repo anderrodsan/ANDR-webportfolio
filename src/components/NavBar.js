@@ -63,10 +63,13 @@ function NavBar() {
               <Link to="hero" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>About Me</Link>
             </li>
             <li className='burger-item'>
-              <Link to="skills" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
+              <Link to="projects" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Projects</Link>
             </li>
             <li className='burger-item'>
               <Link to="background" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Background</Link>
+            </li>
+            <li className='burger-item'>
+              <Link to="skills" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Skills</Link>
             </li>
             <li className='burger-item'>
               <Link to="art" onClick={showSidebar} spy={true} smooth={true} offset={-60} duration={500}>Art</Link>

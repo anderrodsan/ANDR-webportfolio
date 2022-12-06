@@ -196,6 +196,10 @@
         height: auto;
     }
 
+    .main-title{
+        padding-top: 5vh;
+    }
+
     .project-content{
         position: relative;
         transform: translate(0, 0);
@@ -203,5 +207,6 @@
         left: 0%;
         text-align: center;
         padding: 30px 10%;
+        margin: auto;
     }
 }

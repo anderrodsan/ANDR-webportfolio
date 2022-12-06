@@ -15,7 +15,7 @@ export default function Skills() {
     return (
       <div className='skills dark-theme' id='skills'>
         <div className='skill-content'>
-            <h2>My Skills.</h2>
+            <h2 className='white-text'>My Skills.</h2>
             <div className='skill-types'>
                 <div className='skill-list'>
                     <ul>

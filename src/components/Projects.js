@@ -21,8 +21,8 @@ function Projects(){
   return (
     <div className='project dark-theme' id='projects'>
       <div className='project-content'>
-          <h2 className='white-text'>My Projects.</h2>
-          <h3 className='project-subtitle'>Select any category to filter  my different types of projects. More comming soon...</h3>
+          <h2 className='main-title'>My Projects.</h2>
+          <h3 className='project-subtitle'>Select any category to filter  my different types of projects. More coming soon...</h3>
           <div className='project-types'>
             <button className={frontend ? 'btn-on' : 'btn'} onClick={showFrontend}>Front-end</button>
             <button className={ml ? 'btn-on' : 'btn'} onClick={showML}>Full-Stack</button>
